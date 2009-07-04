@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            CLASS = UKBooleanTemplateField; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {checkBox = NSButton; }; 
+            SUPERCLASS = UKTemplateField; 
+        }, 
+        {CLASS = UKNibOwner; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {dataChanged = id; }; 
+            CLASS = UKTemplateField; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {editView = UKTemplateFieldContainerView; }; 
+            SUPERCLASS = UKNibOwner; 
+        }, 
+        {
+            CLASS = UKTemplateFieldContainerView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = NSView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

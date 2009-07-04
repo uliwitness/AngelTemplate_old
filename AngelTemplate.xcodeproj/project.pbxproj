@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2910B30AEA8F9700AB9DD3 /* UKArrayItemTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2910B20AEA8F9700AB9DD3 /* UKArrayItemTemplateField.m */; };
+		3D2911930AEA997000AB9DD3 /* NSOutlineView+ExpandAllItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2911920AEA997000AB9DD3 /* NSOutlineView+ExpandAllItems.m */; };
+		3D2912790AEAA53500AB9DD3 /* TEMPLATES.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D2912780AEAA53500AB9DD3 /* TEMPLATES.txt */; };
+		3D29129B0AEAB4BD00AB9DD3 /* UKUnsignedIntegerTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2912990AEAB4BD00AB9DD3 /* UKUnsignedIntegerTemplateField.m */; };
+		3D29132F0AEB94FC00AB9DD3 /* UKPluginRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29132E0AEB94FC00AB9DD3 /* UKPluginRegistry.m */; };
+		3D2913620AEB980800AB9DD3 /* UKAngelTemplateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2913610AEB980800AB9DD3 /* UKAngelTemplateAppDelegate.m */; };
+		3D2914A40AEB9A8400AB9DD3 /* UKPluginTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2914A30AEB9A8400AB9DD3 /* UKPluginTemplateField.m */; };
+		3D2A0222079DAA62000E6539 /* NSObject+Subclasses.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A0220079DAA62000E6539 /* NSObject+Subclasses.h */; };
+		3D2A0223079DAA62000E6539 /* NSObject+Subclasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A0221079DAA62000E6539 /* NSObject+Subclasses.m */; };
+		3D2A02B8079DBBE6000E6539 /* Templates in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A02B5079DBBE6000E6539 /* Templates */; };
+		3D2A05AB079F31F7000E6539 /* UKBooleanTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A05A1079F31F7000E6539 /* UKBooleanTemplateField.m */; };
+		3D2A05AC079F31F7000E6539 /* UKIntegerTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A05A2079F31F7000E6539 /* UKIntegerTemplateField.m */; };
+		3D2A05AD079F31F7000E6539 /* UKIntegerTemplateField.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A05A3079F31F7000E6539 /* UKIntegerTemplateField.h */; };
+		3D2A05AE079F31F7000E6539 /* UKCommentTemplateField.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A05A4079F31F7000E6539 /* UKCommentTemplateField.h */; };
+		3D2A05AF079F31F7000E6539 /* UKPStringTemplateField.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A05A5079F31F7000E6539 /* UKPStringTemplateField.h */; };
+		3D2A05B0079F31F7000E6539 /* UKPStringTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A05A6079F31F7000E6539 /* UKPStringTemplateField.m */; };
+		3D2A05B1079F31F7000E6539 /* UKBooleanTemplateField.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A05A7079F31F7000E6539 /* UKBooleanTemplateField.h */; };
+		3D2A05B2079F31F7000E6539 /* UKCStringTemplateField.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A05A8079F31F7000E6539 /* UKCStringTemplateField.h */; };
+		3D2A05B3079F31F7000E6539 /* UKCommentTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A05A9079F31F7000E6539 /* UKCommentTemplateField.m */; };
+		3D2A05B4079F31F7000E6539 /* UKCStringTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A05AA079F31F7000E6539 /* UKCStringTemplateField.m */; };
+		3D2A05C1079F324D000E6539 /* UKArrayTemplateField.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A05BF079F324D000E6539 /* UKArrayTemplateField.h */; };
+		3D2A05C2079F324D000E6539 /* UKArrayTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A05C0079F324D000E6539 /* UKArrayTemplateField.m */; };
+		3DED0A99079B80A2002F9CF4 /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3DED0A98079B80A2002F9CF4 /* TODO.txt */; };
+		3DED0AC8079C2CDD002F9CF4 /* UKNibOwner.h in Resources */ = {isa = PBXBuildFile; fileRef = 3DED0AC6079C2CDC002F9CF4 /* UKNibOwner.h */; };
+		3DED0AC9079C2CDD002F9CF4 /* UKNibOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DED0AC7079C2CDD002F9CF4 /* UKNibOwner.m */; };
+		3DED0AE0079C31FA002F9CF4 /* UKTemplateField.h in Resources */ = {isa = PBXBuildFile; fileRef = 3DED0ADE079C31FA002F9CF4 /* UKTemplateField.h */; };
+		3DED0AE1079C31FA002F9CF4 /* UKTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DED0ADF079C31FA002F9CF4 /* UKTemplateField.m */; };
+		3DED0C75079C6B80002F9CF4 /* UKTextUtilities.h in Resources */ = {isa = PBXBuildFile; fileRef = 3DED0C73079C6B80002F9CF4 /* UKTextUtilities.h */; };
+		3DED0C76079C6B80002F9CF4 /* UKTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DED0C74079C6B80002F9CF4 /* UKTextUtilities.m */; };
+		3DED0D73079C7A25002F9CF4 /* UKScrollDocumentView.h in Resources */ = {isa = PBXBuildFile; fileRef = 3DED0D71079C7A25002F9CF4 /* UKScrollDocumentView.h */; };
+		3DED0D74079C7A25002F9CF4 /* UKScrollDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DED0D72079C7A25002F9CF4 /* UKScrollDocumentView.m */; };
+		3DF407560AF57EC300FC7CF8 /* AngelTemplate.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3DF407550AF57EC300FC7CF8 /* AngelTemplate.icns */; };
+		3DF407580AF57F8800FC7CF8 /* AngelTemplateDoc.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3DF407570AF57F8800FC7CF8 /* AngelTemplateDoc.icns */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
+		8D15AC2E0486D014006FF6A4 /* UKTemplateDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* UKTemplateDocument.nib */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* UKTemplateDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* UKTemplateDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2A37F4ACFDCFA73011CA2CEA /* UKTemplateDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKTemplateDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* UKTemplateDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKTemplateDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4B5FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/UKTemplateDocument.nib; sourceTree = "<group>"; };
+		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* AngelTemplate_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngelTemplate_Prefix.pch; sourceTree = "<group>"; };
+		3D2910B10AEA8F9700AB9DD3 /* UKArrayItemTemplateField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKArrayItemTemplateField.h; sourceTree = "<group>"; };
+		3D2910B20AEA8F9700AB9DD3 /* UKArrayItemTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKArrayItemTemplateField.m; sourceTree = "<group>"; };
+		3D2911910AEA997000AB9DD3 /* NSOutlineView+ExpandAllItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSOutlineView+ExpandAllItems.h"; path = "../UliKit/NSOutlineView+ExpandAllItems.h"; sourceTree = SOURCE_ROOT; };
+		3D2911920AEA997000AB9DD3 /* NSOutlineView+ExpandAllItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSOutlineView+ExpandAllItems.m"; path = "../UliKit/NSOutlineView+ExpandAllItems.m"; sourceTree = SOURCE_ROOT; };
+		3D2912780AEAA53500AB9DD3 /* TEMPLATES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TEMPLATES.txt; sourceTree = "<group>"; };
+		3D2912990AEAB4BD00AB9DD3 /* UKUnsignedIntegerTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKUnsignedIntegerTemplateField.m; path = "Template Fields/UKUnsignedIntegerTemplateField.m"; sourceTree = "<group>"; };
+		3D29129A0AEAB4BD00AB9DD3 /* UKUnsignedIntegerTemplateField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKUnsignedIntegerTemplateField.h; path = "Template Fields/UKUnsignedIntegerTemplateField.h"; sourceTree = "<group>"; };
+		3D2912CC0AEB8C0600AB9DD3 /* UKTemplateFieldProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKTemplateFieldProtocol.h; sourceTree = "<group>"; };
+		3D29132D0AEB94FC00AB9DD3 /* UKPluginRegistry.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKPluginRegistry.h; path = ../UliKit/UKPluginRegistry.h; sourceTree = SOURCE_ROOT; };
+		3D29132E0AEB94FC00AB9DD3 /* UKPluginRegistry.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKPluginRegistry.m; path = ../UliKit/UKPluginRegistry.m; sourceTree = SOURCE_ROOT; };
+		3D2913600AEB980800AB9DD3 /* UKAngelTemplateAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKAngelTemplateAppDelegate.h; sourceTree = "<group>"; };
+		3D2913610AEB980800AB9DD3 /* UKAngelTemplateAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKAngelTemplateAppDelegate.m; sourceTree = "<group>"; };
+		3D2914A20AEB9A8400AB9DD3 /* UKPluginTemplateField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKPluginTemplateField.h; sourceTree = "<group>"; };
+		3D2914A30AEB9A8400AB9DD3 /* UKPluginTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKPluginTemplateField.m; sourceTree = "<group>"; };
+		3D2A0220079DAA62000E6539 /* NSObject+Subclasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Subclasses.h"; path = "../UliKit/NSObject+Subclasses.h"; sourceTree = "<group>"; };
+		3D2A0221079DAA62000E6539 /* NSObject+Subclasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Subclasses.m"; path = "../UliKit/NSObject+Subclasses.m"; sourceTree = "<group>"; };
+		3D2A02B5079DBBE6000E6539 /* Templates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Templates; sourceTree = "<group>"; };
+		3D2A05A1079F31F7000E6539 /* UKBooleanTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKBooleanTemplateField.m; path = "Template Fields/UKBooleanTemplateField.m"; sourceTree = "<group>"; };
+		3D2A05A2079F31F7000E6539 /* UKIntegerTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKIntegerTemplateField.m; path = "Template Fields/UKIntegerTemplateField.m"; sourceTree = "<group>"; };
+		3D2A05A3079F31F7000E6539 /* UKIntegerTemplateField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKIntegerTemplateField.h; path = "Template Fields/UKIntegerTemplateField.h"; sourceTree = "<group>"; };
+		3D2A05A4079F31F7000E6539 /* UKCommentTemplateField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKCommentTemplateField.h; path = "Template Fields/UKCommentTemplateField.h"; sourceTree = "<group>"; };
+		3D2A05A5079F31F7000E6539 /* UKPStringTemplateField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKPStringTemplateField.h; path = "Template Fields/UKPStringTemplateField.h"; sourceTree = "<group>"; };
+		3D2A05A6079F31F7000E6539 /* UKPStringTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKPStringTemplateField.m; path = "Template Fields/UKPStringTemplateField.m"; sourceTree = "<group>"; };
+		3D2A05A7079F31F7000E6539 /* UKBooleanTemplateField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKBooleanTemplateField.h; path = "Template Fields/UKBooleanTemplateField.h"; sourceTree = "<group>"; };
+		3D2A05A8079F31F7000E6539 /* UKCStringTemplateField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKCStringTemplateField.h; path = "Template Fields/UKCStringTemplateField.h"; sourceTree = "<group>"; };
+		3D2A05A9079F31F7000E6539 /* UKCommentTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKCommentTemplateField.m; path = "Template Fields/UKCommentTemplateField.m"; sourceTree = "<group>"; };
+		3D2A05AA079F31F7000E6539 /* UKCStringTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKCStringTemplateField.m; path = "Template Fields/UKCStringTemplateField.m"; sourceTree = "<group>"; };
+		3D2A05BF079F324D000E6539 /* UKArrayTemplateField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKArrayTemplateField.h; path = "Template Fields/UKArrayTemplateField.h"; sourceTree = "<group>"; };
+		3D2A05C0079F324D000E6539 /* UKArrayTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKArrayTemplateField.m; path = "Template Fields/UKArrayTemplateField.m"; sourceTree = "<group>"; };
+		3DED0A98079B80A2002F9CF4 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		3DED0AC6079C2CDC002F9CF4 /* UKNibOwner.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKNibOwner.h; path = ../UliKit/UKNibOwner.h; sourceTree = "<group>"; };
+		3DED0AC7079C2CDD002F9CF4 /* UKNibOwner.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKNibOwner.m; path = ../UliKit/UKNibOwner.m; sourceTree = "<group>"; };
+		3DED0ADE079C31FA002F9CF4 /* UKTemplateField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKTemplateField.h; sourceTree = "<group>"; };
+		3DED0ADF079C31FA002F9CF4 /* UKTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKTemplateField.m; sourceTree = "<group>"; };
+		3DED0C73079C6B80002F9CF4 /* UKTextUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UKTextUtilities.h; path = ../UliKit/UKTextUtilities.h; sourceTree = "<group>"; };
+		3DED0C74079C6B80002F9CF4 /* UKTextUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UKTextUtilities.m; path = ../UliKit/UKTextUtilities.m; sourceTree = "<group>"; };
+		3DED0D71079C7A25002F9CF4 /* UKScrollDocumentView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKScrollDocumentView.h; path = ../UliKit/UKScrollDocumentView.h; sourceTree = "<group>"; };
+		3DED0D72079C7A25002F9CF4 /* UKScrollDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKScrollDocumentView.m; path = ../UliKit/UKScrollDocumentView.m; sourceTree = "<group>"; };
+		3DF407550AF57EC300FC7CF8 /* AngelTemplate.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AngelTemplate.icns; sourceTree = "<group>"; };
+		3DF407570AF57F8800FC7CF8 /* AngelTemplateDoc.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AngelTemplateDoc.icns; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* AngelTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* AngelTemplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* AngelTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				3DED0A98079B80A2002F9CF4 /* TODO.txt */,
+				3D2912780AEAA53500AB9DD3 /* TEMPLATES.txt */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = AngelTemplate;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3D2913600AEB980800AB9DD3 /* UKAngelTemplateAppDelegate.h */,
+				3D2913610AEB980800AB9DD3 /* UKAngelTemplateAppDelegate.m */,
+				2A37F4AEFDCFA73011CA2CEA /* UKTemplateDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* UKTemplateDocument.m */,
+				3DED0AF3079C3CA1002F9CF4 /* Fields */,
+				3DED0ACC079C2CDF002F9CF4 /* UliKit */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* AngelTemplate_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
+				2A37F4B4FDCFA73011CA2CEA /* UKTemplateDocument.nib */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				3D2A02B5079DBBE6000E6539 /* Templates */,
+				3DF407550AF57EC300FC7CF8 /* AngelTemplate.icns */,
+				3DF407570AF57F8800FC7CF8 /* AngelTemplateDoc.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DED0ACC079C2CDF002F9CF4 /* UliKit */ = {
+			isa = PBXGroup;
+			children = (
+				3D2911910AEA997000AB9DD3 /* NSOutlineView+ExpandAllItems.h */,
+				3D2911920AEA997000AB9DD3 /* NSOutlineView+ExpandAllItems.m */,
+				3D2A0220079DAA62000E6539 /* NSObject+Subclasses.h */,
+				3D2A0221079DAA62000E6539 /* NSObject+Subclasses.m */,
+				3DED0AC6079C2CDC002F9CF4 /* UKNibOwner.h */,
+				3DED0AC7079C2CDD002F9CF4 /* UKNibOwner.m */,
+				3DED0D71079C7A25002F9CF4 /* UKScrollDocumentView.h */,
+				3DED0D72079C7A25002F9CF4 /* UKScrollDocumentView.m */,
+				3DED0C73079C6B80002F9CF4 /* UKTextUtilities.h */,
+				3DED0C74079C6B80002F9CF4 /* UKTextUtilities.m */,
+				3D29132D0AEB94FC00AB9DD3 /* UKPluginRegistry.h */,
+				3D29132E0AEB94FC00AB9DD3 /* UKPluginRegistry.m */,
+			);
+			name = UliKit;
+			sourceTree = "<group>";
+		};
+		3DED0AF3079C3CA1002F9CF4 /* Fields */ = {
+			isa = PBXGroup;
+			children = (
+				3D2912CC0AEB8C0600AB9DD3 /* UKTemplateFieldProtocol.h */,
+				3DED0ADE079C31FA002F9CF4 /* UKTemplateField.h */,
+				3DED0ADF079C31FA002F9CF4 /* UKTemplateField.m */,
+				3D2A05A4079F31F7000E6539 /* UKCommentTemplateField.h */,
+				3D2A05A9079F31F7000E6539 /* UKCommentTemplateField.m */,
+				3D2A05A7079F31F7000E6539 /* UKBooleanTemplateField.h */,
+				3D2A05A1079F31F7000E6539 /* UKBooleanTemplateField.m */,
+				3D2A05A3079F31F7000E6539 /* UKIntegerTemplateField.h */,
+				3D2A05A2079F31F7000E6539 /* UKIntegerTemplateField.m */,
+				3D2912990AEAB4BD00AB9DD3 /* UKUnsignedIntegerTemplateField.m */,
+				3D29129A0AEAB4BD00AB9DD3 /* UKUnsignedIntegerTemplateField.h */,
+				3D2A05A8079F31F7000E6539 /* UKCStringTemplateField.h */,
+				3D2A05AA079F31F7000E6539 /* UKCStringTemplateField.m */,
+				3D2A05A5079F31F7000E6539 /* UKPStringTemplateField.h */,
+				3D2A05A6079F31F7000E6539 /* UKPStringTemplateField.m */,
+				3D2A05BF079F324D000E6539 /* UKArrayTemplateField.h */,
+				3D2A05C0079F324D000E6539 /* UKArrayTemplateField.m */,
+				3D2910B10AEA8F9700AB9DD3 /* UKArrayItemTemplateField.h */,
+				3D2910B20AEA8F9700AB9DD3 /* UKArrayItemTemplateField.m */,
+				3D2914A20AEB9A8400AB9DD3 /* UKPluginTemplateField.h */,
+				3D2914A30AEB9A8400AB9DD3 /* UKPluginTemplateField.m */,
+			);
+			name = Fields;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* AngelTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7828C50A0D2587002E35F3 /* Build configuration list for PBXNativeTarget "AngelTemplate" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngelTemplate;
+			productInstallPath = "$(HOME)/Applications";
+			productName = AngelTemplate;
+			productReference = 8D15AC370486D014006FF6A4 /* AngelTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3D7828C90A0D2587002E35F3 /* Build configuration list for PBXProject "AngelTemplate" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* AngelTemplate */;
+			projectDirPath = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* AngelTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */,
+				8D15AC2E0486D014006FF6A4 /* UKTemplateDocument.nib in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				3DED0A99079B80A2002F9CF4 /* TODO.txt in Resources */,
+				3DED0AC8079C2CDD002F9CF4 /* UKNibOwner.h in Resources */,
+				3DED0AE0079C31FA002F9CF4 /* UKTemplateField.h in Resources */,
+				3DED0C75079C6B80002F9CF4 /* UKTextUtilities.h in Resources */,
+				3DED0D73079C7A25002F9CF4 /* UKScrollDocumentView.h in Resources */,
+				3D2A0222079DAA62000E6539 /* NSObject+Subclasses.h in Resources */,
+				3D2A02B8079DBBE6000E6539 /* Templates in Resources */,
+				3D2A05AD079F31F7000E6539 /* UKIntegerTemplateField.h in Resources */,
+				3D2A05AE079F31F7000E6539 /* UKCommentTemplateField.h in Resources */,
+				3D2A05AF079F31F7000E6539 /* UKPStringTemplateField.h in Resources */,
+				3D2A05B1079F31F7000E6539 /* UKBooleanTemplateField.h in Resources */,
+				3D2A05B2079F31F7000E6539 /* UKCStringTemplateField.h in Resources */,
+				3D2A05C1079F324D000E6539 /* UKArrayTemplateField.h in Resources */,
+				3D2912790AEAA53500AB9DD3 /* TEMPLATES.txt in Resources */,
+				3DF407560AF57EC300FC7CF8 /* AngelTemplate.icns in Resources */,
+				3DF407580AF57F8800FC7CF8 /* AngelTemplateDoc.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* UKTemplateDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				3DED0AC9079C2CDD002F9CF4 /* UKNibOwner.m in Sources */,
+				3DED0AE1079C31FA002F9CF4 /* UKTemplateField.m in Sources */,
+				3DED0C76079C6B80002F9CF4 /* UKTextUtilities.m in Sources */,
+				3DED0D74079C7A25002F9CF4 /* UKScrollDocumentView.m in Sources */,
+				3D2A0223079DAA62000E6539 /* NSObject+Subclasses.m in Sources */,
+				3D2A05AB079F31F7000E6539 /* UKBooleanTemplateField.m in Sources */,
+				3D2A05AC079F31F7000E6539 /* UKIntegerTemplateField.m in Sources */,
+				3D2A05B0079F31F7000E6539 /* UKPStringTemplateField.m in Sources */,
+				3D2A05B3079F31F7000E6539 /* UKCommentTemplateField.m in Sources */,
+				3D2A05B4079F31F7000E6539 /* UKCStringTemplateField.m in Sources */,
+				3D2A05C2079F324D000E6539 /* UKArrayTemplateField.m in Sources */,
+				3D2910B30AEA8F9700AB9DD3 /* UKArrayItemTemplateField.m in Sources */,
+				3D2911930AEA997000AB9DD3 /* NSOutlineView+ExpandAllItems.m in Sources */,
+				3D29129B0AEAB4BD00AB9DD3 /* UKUnsignedIntegerTemplateField.m in Sources */,
+				3D29132F0AEB94FC00AB9DD3 /* UKPluginRegistry.m in Sources */,
+				3D2913620AEB980800AB9DD3 /* UKAngelTemplateAppDelegate.m in Sources */,
+				3D2914A40AEB9A8400AB9DD3 /* UKPluginTemplateField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B4FDCFA73011CA2CEA /* UKTemplateDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B5FDCFA73011CA2CEA /* English */,
+			);
+			name = UKTemplateDocument.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B7FDCFA73011CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D7828C60A0D2587002E35F3 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AngelTemplate_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CFLAGS = "-DUK_COMPILING_ANGELTEMPLATE";
+				PRODUCT_NAME = AngelTemplate;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		3D7828C70A0D2587002E35F3 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AngelTemplate_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = AngelTemplate;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		3D7828C80A0D2587002E35F3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AngelTemplate_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = AngelTemplate;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		3D7828CA0A0D2587002E35F3 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		3D7828CB0A0D2587002E35F3 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		3D7828CC0A0D2587002E35F3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D7828C50A0D2587002E35F3 /* Build configuration list for PBXNativeTarget "AngelTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7828C60A0D2587002E35F3 /* Development */,
+				3D7828C70A0D2587002E35F3 /* Deployment */,
+				3D7828C80A0D2587002E35F3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		3D7828C90A0D2587002E35F3 /* Build configuration list for PBXProject "AngelTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7828CA0A0D2587002E35F3 /* Development */,
+				3D7828CB0A0D2587002E35F3 /* Deployment */,
+				3D7828CC0A0D2587002E35F3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
