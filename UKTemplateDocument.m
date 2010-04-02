@@ -295,7 +295,8 @@
     {
         [self updateChangeCount: NSChangeDone];
         NSAlert*    alr = [NSAlert alertWithMessageText: @"File too long!" defaultButton:@"OK" alternateButton:@"" otherButton:@""
-                            informativeTextWithFormat: @"The file contains more data than the template can cope with. If you save, this data will be discarded."];
+                            informativeTextWithFormat: @"The file contains %d bytes more data than the template can cope with. If you save, this data will be discarded.",
+							([fileData length] -offset)];
         [[fieldList window] makeKeyAndOrderFront: self];
         [alr beginSheetModalForWindow: [fieldList window] modalDelegate: self didEndSelector:@selector(alertDidEnd:returnCode:contextInfo:) contextInfo: nil];
     }
