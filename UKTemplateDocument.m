@@ -12,7 +12,6 @@
 
 #import "UKTemplateDocument.h"
 #import "UKTemplateField.h"
-#import "NSObject+Subclasses.h"
 #import "NSOutlineView+ExpandAllItems.h"
 
 
@@ -235,7 +234,7 @@
     else
     {
         NSAlert*    errw = [NSAlert alertWithMessageText: @"Invalid Template!" defaultButton:@"OK" alternateButton:@"" otherButton:@""
-                                        informativeTextWithFormat: @"Template version %@ not supported.", version];
+                                        informativeTextWithFormat: @"Template version %d not supported.", version];
         [errw runModal];
         return NO;
     }
@@ -295,7 +294,7 @@
     {
         [self updateChangeCount: NSChangeDone];
         NSAlert*    alr = [NSAlert alertWithMessageText: @"File too long!" defaultButton:@"OK" alternateButton:@"" otherButton:@""
-                            informativeTextWithFormat: @"The file contains %d bytes more data than the template can cope with. If you save, this data will be discarded.",
+                            informativeTextWithFormat: @"The file contains %lu bytes more data than the template can cope with. If you save, this data will be discarded.",
 							([fileData length] -offset)];
         [[fieldList window] makeKeyAndOrderFront: self];
         [alr beginSheetModalForWindow: [fieldList window] modalDelegate: self didEndSelector:@selector(alertDidEnd:returnCode:contextInfo:) contextInfo: nil];

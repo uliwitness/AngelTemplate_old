@@ -14,8 +14,6 @@
 		3D29132F0AEB94FC00AB9DD3 /* UKPluginRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29132E0AEB94FC00AB9DD3 /* UKPluginRegistry.m */; };
 		3D2913620AEB980800AB9DD3 /* UKAngelTemplateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2913610AEB980800AB9DD3 /* UKAngelTemplateAppDelegate.m */; };
 		3D2914A40AEB9A8400AB9DD3 /* UKPluginTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2914A30AEB9A8400AB9DD3 /* UKPluginTemplateField.m */; };
-		3D2A0222079DAA62000E6539 /* NSObject+Subclasses.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A0220079DAA62000E6539 /* NSObject+Subclasses.h */; };
-		3D2A0223079DAA62000E6539 /* NSObject+Subclasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A0221079DAA62000E6539 /* NSObject+Subclasses.m */; };
 		3D2A02B8079DBBE6000E6539 /* Templates in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A02B5079DBBE6000E6539 /* Templates */; };
 		3D2A05AB079F31F7000E6539 /* UKBooleanTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A05A1079F31F7000E6539 /* UKBooleanTemplateField.m */; };
 		3D2A05AC079F31F7000E6539 /* UKIntegerTemplateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A05A2079F31F7000E6539 /* UKIntegerTemplateField.m */; };
@@ -75,8 +73,6 @@
 		3D2913610AEB980800AB9DD3 /* UKAngelTemplateAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKAngelTemplateAppDelegate.m; sourceTree = "<group>"; };
 		3D2914A20AEB9A8400AB9DD3 /* UKPluginTemplateField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKPluginTemplateField.h; sourceTree = "<group>"; };
 		3D2914A30AEB9A8400AB9DD3 /* UKPluginTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKPluginTemplateField.m; sourceTree = "<group>"; };
-		3D2A0220079DAA62000E6539 /* NSObject+Subclasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Subclasses.h"; path = "../UliKit/NSObject+Subclasses.h"; sourceTree = "<group>"; };
-		3D2A0221079DAA62000E6539 /* NSObject+Subclasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Subclasses.m"; path = "../UliKit/NSObject+Subclasses.m"; sourceTree = "<group>"; };
 		3D2A02B5079DBBE6000E6539 /* Templates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Templates; sourceTree = "<group>"; };
 		3D2A05A1079F31F7000E6539 /* UKBooleanTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKBooleanTemplateField.m; path = "Template Fields/UKBooleanTemplateField.m"; sourceTree = "<group>"; };
 		3D2A05A2079F31F7000E6539 /* UKIntegerTemplateField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKIntegerTemplateField.m; path = "Template Fields/UKIntegerTemplateField.m"; sourceTree = "<group>"; };
@@ -207,8 +203,6 @@
 			children = (
 				3D2911910AEA997000AB9DD3 /* NSOutlineView+ExpandAllItems.h */,
 				3D2911920AEA997000AB9DD3 /* NSOutlineView+ExpandAllItems.m */,
-				3D2A0220079DAA62000E6539 /* NSObject+Subclasses.h */,
-				3D2A0221079DAA62000E6539 /* NSObject+Subclasses.m */,
 				3DED0AC6079C2CDC002F9CF4 /* UKNibOwner.h */,
 				3DED0AC7079C2CDD002F9CF4 /* UKNibOwner.m */,
 				3DED0D71079C7A25002F9CF4 /* UKScrollDocumentView.h */,
@@ -275,9 +269,15 @@
 /* Begin PBXProject section */
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 3D7828C90A0D2587002E35F3 /* Build configuration list for PBXProject "AngelTemplate" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* AngelTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -301,7 +301,6 @@
 				3DED0AE0079C31FA002F9CF4 /* UKTemplateField.h in Resources */,
 				3DED0C75079C6B80002F9CF4 /* UKTextUtilities.h in Resources */,
 				3DED0D73079C7A25002F9CF4 /* UKScrollDocumentView.h in Resources */,
-				3D2A0222079DAA62000E6539 /* NSObject+Subclasses.h in Resources */,
 				3D2A02B8079DBBE6000E6539 /* Templates in Resources */,
 				3D2A05AD079F31F7000E6539 /* UKIntegerTemplateField.h in Resources */,
 				3D2A05AE079F31F7000E6539 /* UKCommentTemplateField.h in Resources */,
@@ -328,7 +327,6 @@
 				3DED0AE1079C31FA002F9CF4 /* UKTemplateField.m in Sources */,
 				3DED0C76079C6B80002F9CF4 /* UKTextUtilities.m in Sources */,
 				3DED0D74079C7A25002F9CF4 /* UKScrollDocumentView.m in Sources */,
-				3D2A0223079DAA62000E6539 /* NSObject+Subclasses.m in Sources */,
 				3D2A05AB079F31F7000E6539 /* UKBooleanTemplateField.m in Sources */,
 				3D2A05AC079F31F7000E6539 /* UKIntegerTemplateField.m in Sources */,
 				3D2A05B0079F31F7000E6539 /* UKPStringTemplateField.m in Sources */,
@@ -385,6 +383,7 @@
 		3D7828C60A0D2587002E35F3 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -392,6 +391,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AngelTemplate_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_CFLAGS = "-DUK_COMPILING_ANGELTEMPLATE";
@@ -408,11 +411,16 @@
 					i386,
 					ppc,
 				);
+				CLANG_WARN_EMPTY_BODY = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AngelTemplate_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = AngelTemplate;
@@ -424,9 +432,14 @@
 		3D7828C80A0D2587002E35F3 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AngelTemplate_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = AngelTemplate;

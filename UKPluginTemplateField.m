@@ -103,6 +103,7 @@
 		return [pluginController subFieldAtIndex: index];
 	else
 		[NSException raise: @"UKPluginTemplateFieldSubFieldAtIndexUnimplemented" format: @"Error: Plugin controller %@ doesn't correctly implement -subFieldAtIndex.", NSStringFromClass([pluginController class])];
+	return nil;
 }
 
 

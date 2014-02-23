@@ -102,7 +102,7 @@
 
 -(UKTemplateField*)	subFieldAtIndex: (int)index
 {
-	[fields objectAtIndex: index];
+	return [fields objectAtIndex: index];
 }
 
 

@@ -181,6 +181,7 @@ static NSMutableDictionary*        gTemplateFieldTypeToClass = nil;
 	id		obj = [settings objectForKey: key];
 	if( !obj )
 		obj = [[self owningDocument] objectForSettingsKey: key];
+	return obj;
 }
 
 

@@ -26,7 +26,7 @@
 
 @interface UKPluginTemplateField : UKTemplateField
 {
-	id<UKTemplateFieldPluginProtocol,UKTemplateFieldOptionalMethods>	pluginController;
+	id<UKTemplateFieldPluginProtocol>	pluginController;
 }
 
 -(void)	setPluginController: (id<UKTemplateFieldPluginProtocol>)cont;

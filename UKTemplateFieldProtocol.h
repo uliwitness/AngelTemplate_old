@@ -77,10 +77,15 @@
 @end
 
 
-/* Optional or almost-optional methods for your plugin object: */
+/* The following protocol is what your plugin field type should implement at
+	the least. Note that this includes all of the overridable methods above
+	as well as fieldValue or fieldValueForKey:. */
 
-@protocol UKTemplateFieldOptionalMethods
+@protocol UKTemplateFieldPluginProtocol <UKTemplateFieldOverridableMethods,NSObject>
 
+-(id)	initWithTemplateField: (UKTemplateField*)owningField;	// Initializer AngelTemplate calls on your class to create a new object. Save away a nonretained pointer to owningTemplate. It's your lifeline to AngelTemplate.
+
+@optional
 // You must provide exactly *one* of the following two:
 //	These return plist-type values that our NSOutlineView knows how to display.
 -(id)				fieldValue;									// Override this to show your value. Called by the default implementation of fieldValueForKey: to provide the actual value (as opposed to label etc., which we can pull from the template).
@@ -101,18 +106,5 @@
 -(void)				addNewField: (id)sender;				// Action of the "New Field" menu item. You can also implement other selectors like delete:, copy: etc.
 
 -(void)				openFieldEditor: (id)sender;			// Open the field (editor or preview or whatever). Handy for more complex fields.
-
-@end
-
-
-/* The following protocol is what your plugin field type should implement at
-	the least. Note that this includes all of the overridable methods above
-	as well as fieldValue or fieldValueForKey:. */
-
-@protocol UKTemplateFieldPluginProtocol <UKTemplateFieldOverridableMethods,NSObject>
-
--(id)	initWithTemplateField: (UKTemplateField*)owningField;	// Initializer AngelTemplate calls on your class to create a new object. Save away a nonretained pointer to owningTemplate. It's your lifeline to AngelTemplate.
-
-// May also implement UKTemplateFieldOptionalMethods.
 
 @end
